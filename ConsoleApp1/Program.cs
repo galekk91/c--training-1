@@ -6,10 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a = 18;
-            int b = 6;
-            int c = a + b;
-            Console.WriteLine(c);
+            double pi = Math.PI;
+            double radius = 2.5;
+
+            double area = pi * (radius * radius);
+
+            Console.WriteLine($"Area equals to: {area}");
         }
     }
 }
